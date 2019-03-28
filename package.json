@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Studio Ghibli GraphQL wrapper from https://github.com/janaipakos/ghibliapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [
+    "studio",
+    "ghibli",
+    "api",
+    "grapql",
+    "node"
+  ],
+  "author": "Carlos Medina",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.3.2",
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
