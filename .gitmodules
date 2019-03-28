@@ -1,0 +1,3 @@
+[submodule "ghibli-studio-api-client"]
+	path = ghibli-studio-api-client
+	url = https://github.com/CarlosMed/ghibli-studio-api-client.git
