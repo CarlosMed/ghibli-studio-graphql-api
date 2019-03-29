@@ -39,3 +39,6 @@ Thumbs.db
 # Node generated files #
 ######################
 node_modules
+.env
+.netlify
+.lambda
