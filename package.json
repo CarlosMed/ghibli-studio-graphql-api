@@ -4,7 +4,9 @@
   "description": "Studio Ghibli GraphQL wrapper from https://github.com/janaipakos/ghibliapi",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
   },
   "keywords": [
     "studio",
@@ -18,7 +20,10 @@
   "dependencies": {
     "apollo-datasource-rest": "^0.3.2",
     "apollo-server": "^2.4.8",
+    "apollo-server-lambda": "^2.4.8",
+    "dotenv": "^7.0.0",
     "graphql": "^14.2.0",
+    "netlify-lambda": "^1.4.3",
     "nodemon": "^1.18.10"
   }
 }
